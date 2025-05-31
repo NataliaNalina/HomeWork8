@@ -6,6 +6,7 @@ public class Main {
         int[] arr = new int[] {1,2,3};
         double[] numb = new double[] {1.57,7.654,9.986};
         char[] alpha = new char[]{'a','b','c','d','e','f'};
+
         System.out.println("Задача 2. ");
         for (int i = 0; i < arr.length; i++){
             if (i == arr.length - 1) {
