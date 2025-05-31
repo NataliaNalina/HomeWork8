@@ -13,21 +13,21 @@ public class Main {
                 System.out.println(arr[i]);
                 break;
             }
-            System.out.print(arr[i]+" ");
+            System.out.print(arr[i]+", ");
         }
         for ( int i = 0; i < numb.length; i++){
             if (i == numb.length - 1) {
                 System.out.println(numb[i]);
                 break;
             }
-            System.out.print(numb[i]+" ");
+            System.out.print(numb[i]+", ");
         }
         for ( int i = 0; i < alpha.length; i++){
             if (i == alpha.length - 1) {
                 System.out.println(alpha[i]);
                 break;
             }
-            System.out.print(alpha[i]+" ");
+            System.out.print(alpha[i]+", ");
         }
         System.out.println("Задача 3. ");
         for (int i = arr.length-1; i >=0; i--){
@@ -35,7 +35,7 @@ public class Main {
                 System.out.println(arr[i]);
                 break;
             }
-            System.out.print(arr[i]+" ");
+            System.out.print(arr[i]+", ");
         }
         for ( int i = numb.length-1; i >=0; i--){
             if (i == 0) {
@@ -49,7 +49,7 @@ public class Main {
                 System.out.println(alpha[i]);
                 break;
             }
-            System.out.print(alpha[i]+" ");
+            System.out.print(alpha[i]+", ");
         }
         System.out.println("Задача 4. ");
         for (int i = 0; i < arr.length; i++){
